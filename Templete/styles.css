@@ -1,6 +1,13 @@
+:root {
+    --primary-color: #262626;
+    --secondary-color: #fff;
+    --text-color: #000000;
+    --background-color: #ffffff;
+}
+
 body {
-    background-color: #000;
-    color: #fff;
+    background-color: var(--background-color);
+    color: var(--text-color);
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -23,7 +30,7 @@ body {
 }
 
 .logo {
-    color: #fff;
+    color: #080808;
     font-size: 25px;
     font-family: 'Instagram Sans Script', cursive;
     margin-bottom: 30px;
@@ -47,7 +54,7 @@ body {
     margin: 4px 0;
     cursor: pointer;
     border-radius: 8px;
-    color: #fff;
+    color: var(--text-color);
     text-decoration: none;
 }
 
